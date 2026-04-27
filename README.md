@@ -51,13 +51,7 @@ Execution reports are generated in the `/reports` folder using ExtentReports.
 Screenshots are automatically captured on test failure and saved in the `/screenshots` folder.
 
 
-
----
-
-```bash
-mvn test
-
----
 Developed By Dhathri Putty
+---
 
 
