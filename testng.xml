@@ -1,0 +1,25 @@
+<suite name="DemoBlaze Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="com.srm.listeners.TestListener"/>
+    </listeners>
+ 
+ 
+ <test name="Signup Test">
+    <classes>
+        <class name="com.srm.tests.SignupTest"/>
+    </classes>
+</test>
+
+    <test name="DemoBlaze Tests">
+
+        <classes>
+            <class name="com.srm.tests.LoginTest"/>
+            <class name="com.srm.tests.ProductTest"/>
+            <class name="com.srm.tests.CartTest"/>
+            <class name="com.srm.tests.OrderTest"/>
+        </classes>
+
+    </test>
+
+</suite>
